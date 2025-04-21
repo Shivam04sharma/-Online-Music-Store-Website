@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <script>
+        function myFuntion()
+        {
+            var un=document.forms ["myForm"]["Uname"].value;
+            var pw = document.forms ["myForm"]["Pass"].value;
+            if(un=="student" && pw=="1234"){
+                window.location.href = "mainpage.html";
+            }
+            else{
+                alert("Invalid Username and password")
+            }
+        }
+    </script>
+</head>
+<body bgcolor="crimson">
+
+    <div class="container">
+        <div class="login-left">
+            <div class="login-header">
+                <h1>Welcome to Our Application</h1>
+                <p>Please login to use the platform</p>
+            </div>
+            <form class="login-form" name="myForm" method="post" onclick="myFunction()">
+                <div class="login-form-content">
+                    <div class="form-item">
+                        <label>Enter Email</label>
+                        <input type="text" id="emailForm" name="Uname" method="post">
+                    </div>
+                    <div class="form-item">
+                        <label>Enter Password</label>
+                        <input type="password" id="passwordForm" name="Pass" method="post">
+                    </div>
+                    <br>
+                    <button type="submit" class="color_but">Sign In</button>
+                </div>
+            </form>
+        </div>
+        <div class="login-right">
+            <img src="save-image/musicbg.png" id = "image_change" alt="image">
+        </div>
+    </div>
+</body>
+</html>

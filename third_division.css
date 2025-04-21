@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "wildwest";
+    src: url("fonts/Gleamore\ Demo.ttf");
+}
+
+#third_part
+{
+    width:100%;
+    height: 50%; 
+    background-color: white;
+}
+
+#head_artist
+{
+    font-family: "wildwest";
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    /* margin-left: 35%; */
+    /* border-radius: 25px; */
+}
+.divider1
+{
+    width: 100%;
+    height: 1vh;
+    background-color: white;
+}
+
+.artist_div
+{
+    /* width: 20%;
+    height: 40%; */
+    font-family: "wildwest";
+    font-size: 70px;
+    /* background-color: yellowgreen; */
+    padding: 10px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    
+    /* border-radius: 20%; */
+}
+
+.artist_hov:hover
+{
+    color: red;
+    cursor: pointer;
+}
+

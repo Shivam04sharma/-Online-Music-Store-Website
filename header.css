@@ -1,0 +1,96 @@
+@font-face{  /*importing face */
+    font-family: "frosty";
+    src: url("fonts/Streetwear.otf")
+}
+*
+{       /* settings applied everywhere */
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+body{
+    /* scroll-behavior: smooth; */
+    background-color: white;
+    /* overflow: scroll; */
+    scroll-behavior: smooth;
+}
+
+.head { /* main red color header */
+    position: fixed;
+    width: 100%;
+    height: 10.8%;;
+    padding: 0px 5px;
+    background: black;
+    font-size: 16px;
+    font-family: "frosty";   
+}
+
+#logo_decor  /* the black color box behind logo */
+{
+    width: 14%;
+    height: 100%;
+    background-color: black;
+    /* border-color: grey; */
+    /* border-width: 5px; */
+    /* border-style: groove; */
+    padding: 0px 0px;
+    float: left;
+}
+
+.login /*login side black box division */
+{
+    width: 7%;
+    float: right;
+    height: 100%;
+    padding: 25px 10px;
+    background-color: white;
+}
+
+
+.login_entry  /* login photo */
+{
+    font-size: 24px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* .entry_change:hover
+{
+    background-color: black;
+    width: 8%;
+    height: 25%;
+    color: white
+} */
+
+#image { /*logo*/
+    width: 35%;
+    padding: 0x 5px;
+    float: left;
+    cursor: pointer;
+
+}
+h1{ /* header */
+    margin-top: 11%;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.bttn  /* navigation options */
+{
+    font-family: "frosty";
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
+.change:hover  /* navigation options hover option */
+{
+    background-color: white;
+    color: black;
+    width: 13.2%;
+    height: 100%;
+}
